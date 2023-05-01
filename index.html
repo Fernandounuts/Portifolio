@@ -18,7 +18,7 @@
         <h1 class="main-header-title">
             Portifólio e trabalhos de <br />
             <strong>Fernando Balieiro Ferreira</strong>, <br />
-            um desenvolvedor de software <br/> amante de tecnologias.
+            um desenvolvedor de software <br /> amante de tecnologias.
         </h1>
     </header>
     <main class="main-content">
@@ -55,43 +55,71 @@
                 <p class="recent-works-card-title">Projeto Pizzaria</p>
                 <p>Um projeto aonde foi criada uma site sobre uma pizzaria</p>
             </article>
-            <a href="https://github.com/Fernandounuts?tab=repositories" title="veja mais" class="button-default">Veja Portifolio Completo</a>
+            <a href="https://github.com/Fernandounuts?tab=repositories" title="veja mais" class="button-default"
+                target=”_blank”>Veja Portifolio Completo</a>
         </section>
 
         <section class="main-content-section">
             <h3>Contate-me</h3>
 
+
             <p>Você pode assinar esse formulário para entrar em contato comigo</p>
-            <form action="https://formsubmit.co/fernandobalieiro.contato@outlook.com " method="POST">
-                <label for="name">Nome</label>
-                <input type="text" name="name" required>
+            <div class="row">
+                <div class="col-2-3">
+                    
+                    <form action="https://formsubmit.co/fernandobalieiro.contato@outlook.com " method="POST">
+                        <div class="row">
+                            <div class="col-2">
+                                <label for="name">Nome</label>
+                                <input type="text" name="name" placeholder="Nome Completo" required>
+                            </div>
+                            <div class="col-2">
+                                <label for="email">email</label>
+                                <input type="email" name="email" placeholder="Email" required>
+                            </div>
+                        </div>
 
-                <label for="email">email</label>
-                <input type="email" name="email" required>
 
-                <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                <button type="submit">Enviar</button>
-            </form>
 
-            <address>
-                <p>
-                    <span>Endereço</span>
-                    Rua Alberto de Oliveira 771, Ribeirão Preto, Brasil
-                </p>
 
-                <p>
-                    <span>Telefone</span>
-                    +55 (16) 98217-6656
-                </p>
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
 
-                <p>
-                    <span>E-mail</span>
-                    fernandobalieiro.contato@outlook.com 
-                </p>
-            </address>
+                        <button type="submit" class="button-default">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-1-3">
+                    <address>
+                        <p>
+                            <span>Endereço</span>
+                            Rua Alberto de Oliveira 771, Ribeirão Preto, Brasil
+                        </p>
+
+                        <p>
+                            <span>Telefone</span>
+                            +55 (16) 98217-6656
+                        </p>
+
+                        <p>
+                            <span>E-mail</span>
+                            fernandobalieiro.contato@outlook.com
+                        </p>
+                    </address>
+                </div>
+            </div>
+
+
+
+
         </section>
     </main>
-    <footer class="main-footer"></footer>
+    <!-- <footer class="main-footer">
+        <ul class="ul-icons">
+            <li><a href="#" class="icon-list"><i class="fa-brands fa-instagram" style="color: #49bf9d;"></i></a></li>
+            <li><a href="#" class="icon-list"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+        
+    </footer> -->
 </body>
 
 </html>
