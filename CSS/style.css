@@ -118,7 +118,7 @@ input:focus, textarea:focus{
 
 textarea{
     min-height: 150px;
-    
+    resize: vertical;
 }
 
 .icon-list{
