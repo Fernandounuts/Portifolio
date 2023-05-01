@@ -4,6 +4,7 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     color: #666;
     line-height: 1.7;
+    list-style: none;
 }
 
 .main-header{
@@ -44,6 +45,10 @@ body{
     
 }
 
+footer ul li{
+    display: inline;
+    margin-left: 20px;
+}
 
 .avatar{
     width: 123px;
@@ -114,6 +119,10 @@ input:focus, textarea:focus{
 textarea{
     min-height: 150px;
     
+}
+
+.icon-list{
+    color: white;
 }
 
 
