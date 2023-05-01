@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/style.css">
 </head>
+
 <body>
     <header class="main-header">
         <a href="index.html" class="main-header-link">
             <img src="#" alt="minha foto de perfil">
         </a>
-        <h1>
+        <h1 class="main-header-title">
             Portifólio e trabalhos de <br />
             <strong>Fernando Balieiro Ferreira</strong>, <br />
-            um desenvolvedor de software amante de tecnologias.
+            um desenvolvedor de software <br/> amante de tecnologias.
         </h1>
     </header>
     <main class="main-content">
         <section class="main-content-section">
             <h2>Quem sou eu?</h2>
-            <p>Sou um estudate de Análise e Desenvolvimento de Sistemas e desenvolvedor web 
+            <p>Sou um estudate de Análise e Desenvolvimento de Sistemas, desenvolvedor web e amante de Rock and Roll
                 em busca de sua primeira vaga na área de tecnologia</p>
             <!-- <a href="#" title="Veja mais" class="button-default">Veja mais</a> -->
 
@@ -31,28 +34,64 @@
             <h3>Trabalhos Recentes</h3>
             <article class="recent-works-card">'
                 <a href="https://ephemeral-cactus-1dbc0b.netlify.app/#" target=”_blank”> <!--trabalho fashion-->
-                    <img src="#" alt="imagem fashion">
+                    <img src="img/modelo3.jpg" alt="imagem fashion">
                 </a>
-                <p class="recent-works-card-title">Fashion</p>
+                <p class="recent-works-card-title">Projeto Fashion</p>
                 <p>Um projeto de site onde é retratado um site sobre moda e roupas</p>
             </article>
 
             <article class="recent-works-card">'
-                <a href="https://thunderous-cucurucho-942beb.netlify.app/index.html" target=”_blank”> <!--projeto empresa-->
-                    <img src="#" alt="imagem empresa">
+                <a href="https://thunderous-cucurucho-942beb.netlify.app/index.html" target=”_blank”>
+                    <!--projeto empresa-->
+                    <img src="img/img-coding.jpg" alt="imagem empresa">
                 </a>
                 <p class="recent-works-card-title">Empresa de desenvolvimento web</p>
                 <p>Um website onde foi criada uma empresa de desenvolvimento web</p>
             </article>
             <article class="recent-works-card">'
-                <a href="#" target=”_blank”> <!--projeto empresa-->
-                    <img src="#" alt="imagem empresa">
+                <a href="#" target=”_blank”> <!--projeto pizzaria-->
+                    <img src="img/calabresa.jpg" alt="imagem pizza">
                 </a>
                 <p class="recent-works-card-title">Projeto Pizzaria</p>
                 <p>Um projeto aonde foi criada uma site sobre uma pizzaria</p>
             </article>
+            <a href="#" title="veja mais" class="button-default">Veja Portifolio Completo</a>
+        </section>
+
+        <section class="main-content-section">
+            <h3>Contate-me</h3>
+
+            <p>Você pode assinar esse formulário para entrar em contato comigo</p>
+            <form action="https://formsubmit.co/fernandobalieiro.contato@outlook.com " method="POST">
+                <label for="name">Nome</label>
+                <input type="text" name="name" required>
+
+                <label for="email">email</label>
+                <input type="email" name="email" required>
+
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+
+            <address>
+                <p>
+                    <span>Endereço</span>
+                    Rua Alberto de Oliveira 771, Ribeirão Preto, Brasil
+                </p>
+
+                <p>
+                    <span>Telefone</span>
+                    +55 (16) 98217-6656
+                </p>
+
+                <p>
+                    <span>E-mail</span>
+                    fernandobalieiro.contato@outlook.com 
+                </p>
+            </address>
         </section>
     </main>
     <footer class="main-footer"></footer>
 </body>
+
 </html>
